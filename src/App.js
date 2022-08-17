@@ -96,7 +96,7 @@ class App extends Component {
     const {searchInput, historyList} = this.state
 
     const filteredSearch = historyList.filter(eachItem =>
-      eachItem.title.toUpperCase().includes(searchInput),
+      eachItem.title.toLowerCase().includes(searchInput),
     )
 
     return (
