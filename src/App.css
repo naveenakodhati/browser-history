@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-container {
+  background-color: #3367d6;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+}
+.nav-logo {
+  align-self: flex-start;
+  padding-right: 25%;
+  width: 240px;
+  align-self: center;
+}
+@media screen and (min-width: 620px) {
+  .nav-logo {
+    align-self: flex-start;
+    padding-right: 25%;
+    width: 280px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .nav-logo {
+    align-self: flex-start;
+    padding-right: 25%;
+    width: 340px;
+  }
+}
+@media screen and (min-width: 950px) {
+  .nav-logo {
+    align-self: flex-start;
+    padding-right: 25%;
+    width: 360px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .nav-logo {
+    align-self: flex-start;
+    padding-right: 25%;
+    width: 380px;
+  }
+}
+@media screen and (min-width: 1070px) {
+  .nav-logo {
+    align-self: flex-start;
+    padding-right: 25%;
+    width: 420px;
+  }
+}
+.search-container {
+  align-self: center;
+  background-color: #2850a7;
+  border: #6697ff 2px solid;
+  width: 50%;
+  border-radius: 3px;
+  padding: 5px;
+  display: flex;
+  cursor: pointer;
+  outline: none;
+}
+
+.search-box {
+  background-color: #2850a7;
+  border: 0px;
+  border-left: #6697ff 2px solid;
+  padding-left: 4px;
+  margin-left: 3px;
+  outline: none;
+  width: 100%;
+}
+.container {
+  min-height: 50vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.shadow-container {
+  box-shadow: 0px 0px 3px 1px rgba(7, 7, 7, 0.2);
+  border-radius: 5px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .shadow-container {
+    width: 85%;
+  }
+}
+.no-history-view {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 75vh;
+}
+.no-history {
+  color: #64748b;
+  font-size: 20px;
+  font-weight: 500;
+}
+.ul-container {
+  list-style-type: none;
+  width: 100%;
+}

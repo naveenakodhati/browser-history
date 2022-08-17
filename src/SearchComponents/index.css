@@ -1,0 +1,52 @@
+.history-items {
+  display: flex;
+  padding: 10px;
+  margin-left: 10px;
+  list-style-type: none;
+}
+.time {
+  color: #64748b;
+  font-size: 17px;
+  align-self: center;
+  width: 120px;
+  font-weight: 700;
+}
+.display-history {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-left: 20px;
+}
+.display {
+  display: flex;
+  flex-wrap: wrap;
+}
+.logos {
+  width: 23px;
+  height: 23px;
+  align-self: center;
+  margin-right: 15px;
+}
+.title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #475569;
+  align-self: center;
+}
+.title-url {
+  align-self: center;
+  color: #64748b;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.delete-btn {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.delete {
+  width: 25px;
+  height: 25px;
+}
